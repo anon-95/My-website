@@ -1,0 +1,20 @@
+h1
+h2
+p
+span
+link
+header
+nav
+ul
+li
+div
+a
+footer
+
+font-family
+line-height
+color
+text-align
+text-shadow
+
+I used bootstrap to help make the navagation bar and dropdown. My Javascript was used to create glowing text.

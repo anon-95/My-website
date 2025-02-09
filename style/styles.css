@@ -1,0 +1,147 @@
+* {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    line-height: 1.75;
+    color:white;
+    text-align: center;
+    text-shadow: 0 0 5px #f9faf8, 0 0 15px #f9faf8, 0 0 30px #f9faf8;
+  }
+body {
+    background-color: #020f21;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;}
+footer {
+  background-image: url("https://i.pinimg.com/originals/03/45/51/034551578ee1fe72ff2bff810bc8d683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2vh;
+}
+
+h1 {
+  font-weight: 700;
+  font-size:4rem;
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+  font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+  font-size:2rem;
+}
+
+a {
+  display: block;
+  color:white;
+  text-decoration: none;
+  line-height: normal;
+}
+a:hover{
+  color:#D3D3D3;
+}
+
+.partOfLife {
+    border: 0px;
+    background-color: white;
+    color: black;
+}
+
+.page{
+    display: flex;
+    height: 100vh;
+
+}
+.menuItem {
+  list-style: none;
+}
+
+#mainPage {
+  width:100%;
+  align-self:stretch;
+  flex-flow: row wrap;
+  background-image: url("https://i.pinimg.com/originals/03/45/51/034551578ee1fe72ff2bff810bc8d683.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#mainPageContent {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#mainPageContent p {
+  line-height: normal;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-shadow: 0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 20px white,
+  0 0 30px white,
+  0 0 40px white,
+  0 0 55px white,
+  0 0 70px white;
+}
+
+
+
+.navbar {
+  background-color: #020f21;
+}
+.container-fluid {
+  --bs-gutter-x: 0rem;
+}
+.navbar a, .navbar a:visited {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0rem;
+  color: lightgrey;
+}
+.navbar-brand {
+  color: white;
+}
+#meetingMe {
+  flex-direction: column;
+  justify-content: center;
+}
+
+#partsOfMyLife {
+  display:flex;
+  justify-content: center;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  flex-flow: row wrap;
+  margin-top: 1.5em;
+  gap: 1rem 1rem;
+}
+
+#meetingMe h2 {
+  margin-bottom: 1.5em;
+}
+.partOfLife {
+  border: 1px solid purple;
+  padding: 0.4rem 1rem;
+  font-size: 1.25rem;
+}
+
+#quote {
+  background-image: url("https://wallpapercave.com/wp/wp7563027.jpg");
+  background-size: fill;
+  background-size: cover;
+  margin-bottom: 3rem;
+  flex-direction: column;
+  background-attachment: fixed;
+  justify-content: center;
+  background-position: 27%;
+}
+#quote span {
+  color: black;
+  font-size: 2rem;
+
+}
+
+
+.dropdown-menu {
+  position: fixed;
+}
+
+#meow:hover {
+  cursor: pointer;
+}

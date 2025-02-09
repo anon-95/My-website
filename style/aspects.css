@@ -1,0 +1,72 @@
+.img-for-aspect {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    padding: 1vw;
+    padding-right: 0vw;
+    object-position: right;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.school-color {
+    background-color: #ad9475;
+}
+.fencing-color {
+    background-color: #9b8577;
+}
+.coding-color {
+    background-color: #675245;
+}
+.arts-and-crafts-color {
+    background-color: #b69165;
+}
+.chinese-color {
+    background-color: #845730;
+}
+
+h1 {
+    align-self: end;
+    margin: 0rem;
+
+}
+.content {
+    width: 100%;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-template-rows: 3fr 7fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#aspect-description {
+    align-self: start;
+    justify-self: start;
+    padding: 3vw;
+}
+
+
+@media only screen
+   and (min-device-width : 320px)
+   and (max-device-width : 480px) {
+    .content {
+        width: 100%;
+        height: 85vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: /*2fr 1fr 6fr*/ auto auto auto ;
+    }
+
+    .img-for-aspect {
+        grid-row-end: span 1;
+    }
+
+}
+
